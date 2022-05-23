@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+li {
+    text-decoration: unset;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Bodoni Moda', serif;
+}
+
+p {
+    font-family: 'Montserrat';
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background: #000;
+    padding: 8px 24px;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+nav img {
+    width: 200px;
+}
+
+nav ul {
+    color: #FFF;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+nav ul li {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li:hover {
+    border-bottom: 1px solid #FFF;
+}
+
+.navbar_redes{
+    display: flex;
+    gap: 16px;
+    color: #FFF;
+    padding-left: 16px;
+}
+
+.navbar_redes img{
+    width: 100%;
+    max-height: 20px;
+    filter: invert(99%) sepia(0%) saturate(2%) hue-rotate(320deg) brightness(107%) contrast(100%);
+}
+
+.titulo_pagina {
+    font-family: 'Bodoni Moda', serif;
+    background: #000;
+    color: #FFF;
+    width: fit-content;
+    text-align: center;
+    font-weight: 100;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 16px 24px;
+    text-transform: uppercase;
+}
+
+.botao_primario {
+    font-family: 'Bodoni Moda', serif;
+    padding: 16px 32px;
+    background: #FFF;
+    color: #000;
+    font-size: 22px;
+    border: 1px solid #FFF;
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.botao_primario:hover {
+    color: #FFF;
+    background: #000;
+    animation: 5s;
+}
+
+.navbar-botao {
+    padding: 8px 16px;
+    background: #FFF;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-botao:hover {
+    color: #FFF;
+    background: #000;
+    animation: 5s;
+    border: 1px solid #FFF;
+}
+
+.buy-botao{
+    padding: 8px 16px;
+    background: #000;
+    color: #FFF;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy-botao:hover{
+    color: #000;
+    background: #FFF;
+    animation: 5s;
+    border: 1px solid #000;
+}
+
+.containerCards {
+
+    height: 100%;
+    max-width: 280px;
+
+
+    box-shadow: 4px 4px 10px -4px rgba(0, 0, 0, 0.25);
+}
+
+.card_bg {
+    display: flex;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    background: #000;
+}
+
+.container_card_infos {
+
+    width: 100%;
+
+}
+
+.container_card_infos img {
+    width: 100%;
+}
+
+.card_bg img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+.infos_card {
+    display: flex;
+    height: 236px;
+    color: #000;
+    background: #FFF;
+    padding: 16px 8px;
+    flex-direction: column;
+
+}
+
+.container_espaco_cards {
+    height: 100%;
+    padding: 24px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.infos_card h1 {
+    font-size: 22px;
+}
+
+.infos_card p {
+    font-size: 14px;
+}
+
+.bg_card_img {
+    opacity: 0.2;
+}
+
+.card-precos h1 {
+    font-weight: 600;
+}
+
+.card-precos p {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.card-precos {
+    gap: 16px;display: flex;
+    
+margin-bottom: 16px;}
+
+.infos_organizacao {
+    height: 95px;
+}
+
+.scale-up-center:hover {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.02);
+              transform: scale(1.02);
+    }
+  }
